@@ -1,0 +1,15 @@
+#slideshow {
+    position: relative;
+}
+
+#slideshow img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+#slideshow img:first-child {
+    opacity: 1;
+    position: relative;
+}
