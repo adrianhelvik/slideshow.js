@@ -50,8 +50,8 @@ tip: Don't set this too high or the website might lag
 Start / stop / toggle slideshow
 -------------------------------
 
-### slideshow.start();
+slideshow.start();
 
-### slideshow.stop();
+slideshow.stop();
 
-### slideshow.toggle();
+slideshow.toggle();
