@@ -28,18 +28,22 @@ Settings
 
 set time between slides (the pause):
 ------------------------------------
- slideshow.setDelayTime( [time-in-seconds] );
- default: 6
+slideshow.setDelayTime( [time-in-seconds] );
+
+default: 6
 
 set transition time (fade time):
 --------------------------------
 slideshow.setTransitionSpeed( [time-in-seconds] );
+
 default: 5
 
 set number of frames per second (fps):
 --------------------------------------
 slideshow.setFramesPerSecond( [frames-per-second] );
+
 default: 10
+
 tip: Don't set this too high or the website might lag
 
 
@@ -47,5 +51,7 @@ Start / stop / toggle slideshow
 ===============================
 
 slideshow.start();
+
 slideshow.stop();
+
 slideshow.toggle();
