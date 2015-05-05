@@ -1,7 +1,7 @@
 # slideshow.js
 
 How to use
-==========
+----------
 
  1. Load the javascript file at the bottom of your body-tag with:
 
@@ -24,22 +24,22 @@ How to use
  5. Replace [your-images] with an arbitrary number of equal-sized images.
 
 Settings
-========
+--------
 
-set time between slides (the pause):
-------------------------------------
+### set time between slides (the pause):
+
 slideshow.setDelayTime( [time-in-seconds] );
 
 default: 6
 
-set transition time (fade time):
---------------------------------
+### set transition time (fade time):
+
 slideshow.setTransitionSpeed( [time-in-seconds] );
 
 default: 5
 
-set number of frames per second (fps):
---------------------------------------
+### set number of frames per second (fps):
+
 slideshow.setFramesPerSecond( [frames-per-second] );
 
 default: 10
@@ -48,10 +48,10 @@ tip: Don't set this too high or the website might lag
 
 
 Start / stop / toggle slideshow
-===============================
+-------------------------------
 
-slideshow.start();
+### slideshow.start();
 
-slideshow.stop();
+### slideshow.stop();
 
-slideshow.toggle();
+### slideshow.toggle();
