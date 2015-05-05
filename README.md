@@ -1,4 +1,6 @@
- -----------------------   H O W   T O   U S E   -----------------------
+# slideshow.js
+
+HOW TO USE
 
  1. Load the javascript file at the bottom of your body-tag with:
 
@@ -20,45 +22,29 @@
 
  5. Replace [your-images] with an arbitrary number of equal-sized images.
 
- -------------------------   S E T T I N G S   -------------------------
+SETTINGS
 
- -----------------------------------------
-|                                         |
-|   set time between slides (the pause)   |
-|                                         |
-|-----------------------------------------
-|
-·->   slideshow.setDelayTime( [time-in-seconds] );
-|
-·->   default: 6
+set time between slides (the pause)
 
- ---------------------------------------
-|                                       |
-|   set transition time (fade time)     |
-|                                       |
-|---------------------------------------
-|
-·->   slideshow.setTransitionSpeed( [time-in-seconds] );
-|
-·->   default: 5
+slideshow.setDelayTime( [time-in-seconds] );
+default: 6
 
- -------------------------------------------
-|                                           |
-|   set number of frames per second (fps)   |
-|                                           |
-|-------------------------------------------
-|
-·->   slideshow.setFramesPerSecond( [frames-per-second] );
-|
-·->   default: 10
-|
-·->   tip: Don't set this too high or the website might lag
+set transition time (fade time)
+
+slideshow.setTransitionSpeed( [time-in-seconds] );
+default: 5
+
+set number of frames per second (fps)
+
+slideshow.setFramesPerSecond( [frames-per-second] );
+default: 10
+tip: Don't set this too high or the website might lag
 
 
- ---------------------   S T A R T   /   S T O P   ---------------------
+START / STOP
 
- Start, stop or toggle the slideshow:
+Start, stop or toggle the slideshow:
 
- slideshow.start();
- slideshow.stop();
- slideshow.toggle();
+slideshow.start();
+slideshow.stop();
+slideshow.toggle();
