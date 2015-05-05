@@ -1,7 +1,6 @@
 # slideshow.js
-A very lightweight and simple to use slideshow plugin.
 
------------------------   H O W   T O   U S E   -----------------------
+---------------------- HOW TO USE ----------------------
 
  1. Load the javascript file at the bottom of your body-tag with:
 
@@ -23,7 +22,7 @@ A very lightweight and simple to use slideshow plugin.
 
  5. Replace [your-images] with an arbitrary number of equal-sized images.
 
--------------------------   S E T T I N G S   -------------------------
+----------------------- SETTINGS -----------------------
 
  -----------------------------------------
 |                                         |
@@ -58,7 +57,7 @@ A very lightweight and simple to use slideshow plugin.
 ·->   tip: Don't set this too high or the website might lag
 
 
----------------------   S T A R T   /   S T O P   ---------------------
+--------------------- START / STOP ---------------------
 
  Start, stop or toggle the slideshow:
 
@@ -66,3 +65,4 @@ A very lightweight and simple to use slideshow plugin.
  slideshow.stop();
  slideshow.toggle();
  
+
